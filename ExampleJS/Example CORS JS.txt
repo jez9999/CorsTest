@@ -1,10 +1,15 @@
 <script type="text/javascript">
 	var hostBaseUrl = 'https://localhost:44389';  // Replace with your host base URL
 	alert("About to do cross-origin request...");
-	$.get(hostBaseUrl + '/weatherforecast',
-	function(result) {
-		alert('success: ' + result);
-	}, function(err) {
-		alert('failure: ' + err);
-	});
+	$.get(
+		{
+			url: hostBaseUrl + '/weatherforecast',
+			dataType: 'json'
+		})
+		.then(function(result) {
+			alert('success: ' + result);
+		})
+		.catch(function(err) {
+			alert('failure: ' + err);
+		});
 </script>

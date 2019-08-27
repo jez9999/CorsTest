@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsTest", "CorsTest\CorsTest.csproj", "{329FAE3C-F4A4-4470-9224-9736A281F206}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleJS", "ExampleJS", "{5F0D08CE-8ECD-4ED5-AF5A-A00CE01CDB28}"
+	ProjectSection(SolutionItems) = preProject
+		ExampleJS\Example CORS JS.txt = ExampleJS\Example CORS JS.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
