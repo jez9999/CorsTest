@@ -1,0 +1,47 @@
+# Build & deployment folders
+[Oo]bj/
+[Bb]in/
+dist/
+
+# Temporary Visual Studio files (& VS Code)
+*.suo
+*.user
+.vs/
+*.dbmdl
+.vscode/
+/UpgradeLog.htm
+msbuild.log
+
+# npm stuff
+npm-debug.log
+node_modules/
+
+# ReSharper stuff
+_ReSharper.*
+
+# Potential difftool litter files
+*.orig
+
+# Ignore NuGet packages
+*.nupkg
+# ...and packages contents
+**/packages/*
+# ...except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# Per-developer configuration files
+postBuild.bat
+appsecrets.*.xml
+
+# Ignore temporary files written by programs like Microsoft Word and Vim
+~$*
+~*.tmp
+*.swp
+*~
+
+# Others
+*.[Cc]ache
